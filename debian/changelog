@@ -1,5 +1,91 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-configargparse (1.7-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 1.7
+  * remove extranes python3-mock build dependency
+  * set 'Rules-Requires-Root: no'
+  * Update standards version to 4.6.2, no changes needed.
+  * use new dh-sequence-python3
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alexandre Detiste <tchet@debian.org>  Sat, 17 Feb 2024 15:09:18 +0100
+
+python-configargparse (1.5.3-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Harlan Lieberman-Berg ]
+  * New upstream version 1.5.3
+  * Add dep on pytest
+
+ -- Harlan Lieberman-Berg <hlieberman@debian.org>  Thu, 25 Nov 2021 21:33:07 -0500
+
+python-configargparse (1.2.3-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Sandro Tosi ]
+  * New upstream release
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 12 Feb 2021 02:20:19 -0500
+
+python-configargparse (0.13.0-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Andrey Rahmatullin ]
+  * Drop Python 2 support.
+
+ -- Andrey Rahmatullin <wrar@debian.org>  Sun, 18 Aug 2019 01:47:32 +0500
+
+python-configargparse (0.13.0-1) unstable; urgency=medium
+
+  * New upstream version 0.13.0
+  * Move under DPMT, with LE team supporting
+  * Migrate to salsa.
+  * Bump to DH 11, latest policy
+  * Enable tests, adding dependencies and setting up autopkgtest.
+
+ -- Harlan Lieberman-Berg <hlieberman@debian.org>  Sun, 17 Jun 2018 15:24:32 -0400
+
+python-configargparse (0.11.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards-Version up to 3.9.8
+  * Use HTTPS VCS URLs
+
+ -- Francois Marier <francois@debian.org>  Sat, 10 Sep 2016 12:13:54 -0700
+
+python-configargparse (0.10.0-2) unstable; urgency=medium
+
+  [ Harlan Lieberman-Berg ]
+  * Change package maintainer to the Let's Encrypt team.
+
+  [ Francois Marier ]
+  * Point Vcs-* URLs to the new team repo
+
+ -- Francois Marier <francois@debian.org>  Sun, 24 Jan 2016 14:32:40 -0800
+
+python-configargparse (0.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Francois Marier <francois@debian.org>  Fri, 13 Nov 2015 07:22:18 -0800
+
+python-configargparse (0.9.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #787319)
+
+ -- Francois Marier <francois@debian.org>  Sun, 31 May 2015 23:08:47 +1200
